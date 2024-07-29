@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0%;
+      }
+      a {
+        text-decoration: none;
+      }
+      .nav {
+        background-color: black;
+        height: 9vh;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+      }
+      .hel1 {
+        color: aliceblue;
+        position: absolute;
+        top: 12px;
+        left: 10%;
+        font-size: 20px;
+      }
+      .hel12 {
+        color: red;
+        position: absolute;
+        top: 12px;
+        left: 18%;
+        font-size: 20px;
+      }
+      .hel2 > span:hover {
+        border-bottom: 2px solid orangered;
+      }
+      .hel3 > span:hover {
+        border-bottom: 2px solid orangered;
+      }
+      .hel4 > span:hover {
+        border-bottom: 2px solid orangered;
+      }
+      .hel5 > span:hover {
+        border-bottom: 2px solid orangered;
+      }
+      .banner1 {
+        background-image: url(./images/about-heading.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+        position: relative;
+      }
+
+      .batex1 {
+        color: rgb(215, 17, 17);
+        position: absolute;
+        top: 45%;
+        font-size: 30px;
+        left: 48%;
+      }
+      .batex2 {
+        color: white;
+        position: absolute;
+        top: 53%;
+        font-size: 50px;
+        left: 39%;
+      }
+      .data {
+        padding: 3%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .dataimg {
+        width: 350px;
+      }
+      .datatxt {
+        width: 45%;
+      }
+      i {
+        font-size: 20px;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(234, 232, 230);
+      }
+      .icons {
+        display: flex;
+        margin-left: 55%;
+      }
+      i:hover {
+        background-color: red;
+        opacity: 0.8;
+      }
+      @media screen and (width<426px) {
+        .nav {
+          height: 16vh;
+          width: 100%;
+          position: sticky;
+          top: 0px;
+          z-index: 1;
+        }
+        .navimg {
+          position: absolute;
+          width: 40px;
+          height: 30px;
+        }
+        .hel1 {
+          position: absolute;
+          left: 25%;
+        }
+        .hel12 {
+          position: absolute;
+          left: 50%;
+        }
+        .hel2 {
+          position: absolute;
+          top: 35%;
+          left: 10%;
+          font-size: 15px;
+        }
+        .hel2 {
+          position: absolute;
+          top: 35%;
+          left: 10%;
+          font-size: 15px;
+        }
+        .hel3 {
+          position: absolute;
+          top: 25%;
+          left: 30%;
+          font-size: 13px;
+        }
+        .hel4 {
+          position: absolute;
+          top: 25%;
+          left: 55%;
+          font-size: 15px;
+        }
+        .hel5 {
+          position: absolute;
+          top: 25%;
+          left: 75%;
+          font-size: 15px;
+        }
+        .banner1 {
+          width: 100%;
+          position: relative;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 100vh;
+        }
+        .batex1 {
+          font-size: 20px;
+          position: absolute;
+          top: 30%;
+          left: 40%;
+        }
+        .batex2 {
+          position: absolute;
+          top: 38%;
+          left: 25%;
+          font-size: 30px;
+        }
+        .data {
+          display: grid;
+        }
+        .datatxt {
+          width: 100%;
+        }
+        .icons {
+          margin-left: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div>
+        <img
+          src="./images/client-01.png"
+          alt=""
+          width="60px"
+          height="40px"
+          style="padding: 4px"
+          class="navimg"
+        />
+      </div>
+      <div class="hel1">
+        <b>SIXTEEN</b>
+      </div>
+      <div class="hel12">
+        <b>CLOTHING</b>
+      </div>
+      <div class="hel2">
+        <span
+          style="
+            color: white;
+            position: absolute;
+            top: 12px;
+            left: 63%;
+            padding: 10px;
+          "
+          ><a href="./temp.html" style="color: white">Home</a></span
+        >
+      </div>
+      <div class="hel3">
+        <span
+          style="
+            color: white;
+            position: absolute;
+            top: 12px;
+            left: 68%;
+            padding: 10px;
+          "
+          ><a href="#p1" style="color: white">Our products</a></span
+        >
+      </div>
+      <div class="hel4">
+        <span
+          style="
+            color: white;
+            position: absolute;
+            top: 12px;
+            left: 78%;
+            padding: 10px;
+          "
+          ><a href="./about.html" style="color: white">About us</a></span
+        >
+      </div>
+      <div class="hel5">
+        <span
+          style="
+            color: white;
+            position: absolute;
+            top: 12px;
+            left: 85%;
+            padding: 10px;
+          "
+          ><a href="" style="color: white">Contact us</a></span
+        >
+      </div>
+    </div>
+    <div class="banner1">
+      <div class="batex1"><b>ABOUT US</b></div>
+      <div class="batex2"><b>OUR COMPANY</b></div>
+    </div>
+    <br />
+    <br />
+    <div><h2 style="margin-left: 5%">Our Background</h2></div>
+    <hr />
+    <div class="data">
+      <div><img src="./images/feature-image.jpg" alt="" class="dataimg" /></div>
+      <div class="datatxt">
+        <p style="color: rgb(95, 95, 247); font-size: 20px">
+          Who we are & What we do?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+          voluptate nihil eum consectetur similique? Consectetur, quod,
+          incidunt, harum nisi dolores delectus reprehenderit voluptatem
+          perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor
+          sit amet, consectetur adipisicing elit.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+          fugit rem voluptas id quas vitae aspernatur sunt reiciendis molestias
+          similique labore ullam maxime nam expedita adipisci distinctio
+          laborum, alias doloribus?
+        </p>
+        <hr />
+      </div>
+    </div>
+    <div class="icons">
+      <div>
+        <i class="fa-brands fa-square-facebook"><a href=""></a></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-square-twitter"><a href=""></a></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-linkedin"><a href=""></a></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-instagram"><a href=""></a></i>
+      </div>
+    </div>
+    <br />
+    <br />
+    <h2 style="margin-left: 5%">Our Team Members</h2>
+    <hr />
+  </body>
+</html>
